@@ -106,6 +106,7 @@ a:hover {
     position: relative;
     text-decoration: none;
     border-bottom: 1px solid;
+    transition: 300ms ease-out;
 }
 
 .link:after {
@@ -116,10 +117,32 @@ a:hover {
     height: 15px;
     bottom: 6px;
     right: -11px;
+    transition: 300ms ease-out;
+}
+
+.link:before {
+    content: "";
+    position: absolute;
+    background: url(../img/link-hovered.svg) no-repeat;
+    width: 7px;
+    height: 15px;
+    bottom: 6px;
+    right: -11px;
+    transition: 300ms ease-out;
+    opacity: 0;
 }
 
 .link:hover {
     color: #b74b4b;
+    border-bottom-color: #b74b4b !important;
+}
+
+.link:hover::after {
+    opacity: 0;
+}
+
+.link:hover::before {
+    opacity: 1;
 }
 
 .full-figure__note {
