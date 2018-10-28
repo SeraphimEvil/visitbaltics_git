@@ -7,9 +7,4 @@
     mobile: false
   }).init();
 
-
-  // текущая ширина контейнера
-  var containerWidth = 1000;
-  // autowidth
-
 })();
