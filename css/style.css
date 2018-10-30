@@ -1419,6 +1419,7 @@ a:hover {
     margin-left: 40px;
     font-size: 16px;
     font-family: Bureausans, Arial, sans-serif;
+    color: #4f70b3;
 }
 
 .page-nav a.active:first-child {
