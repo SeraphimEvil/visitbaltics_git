@@ -1182,7 +1182,11 @@ a:hover {
 }
 
 .footer__link {
-    text-decoration: underline !important;
+    box-shadow: inset 0 -0.05em #ffffff, inset 0 -0.1em #000000;
+}
+
+.footer__link:hover {
+    box-shadow: inset 0 -0.05em #ffffff, inset 0 -0.1em #b74b4b;
 }
 
 .footer__img-link {
@@ -1220,13 +1224,6 @@ a:hover {
 
 .footer__img--insta:hover {
     background-image: url(../img/inst_hover.png);
-}
-
-.footer__img-link img {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-100%);
-    transition: 300ms ease-out;
 }
 
 .footer__img-link:hover img {
@@ -1363,6 +1360,15 @@ a:hover {
     transform: translate(-18%, 33%);
 }
 
+.tallinn-cape .figure_bird {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: calc(554px / 2);
+    height: calc(234px / 2);
+    transform: translate(0, -50%);
+}
+
 /*horses*/
 .tallinn-horses {
     margin-bottom: 90px;
@@ -1459,4 +1465,33 @@ a:hover {
 
 .page-nav a.active:last-child {
     color: #89afc7;
+}
+
+/*vilnius-kemeri*/
+.vilnius-kemeri__cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vilnius-kemeri__col {
+    width: 26%;
+    min-width: 280px;
+}
+
+.vilnius-kemeri .figure_bird {
+    width: 60%;
+    position: relative;
+    top: -55px;
+}
+
+.vilnius-kemeri .figure_bird img {
+    width: calc(871px / 2);
+    height: calc(517px / 2);
+}
+
+.vilnius-kemeri .figure__caption {
+    position: absolute;
+    right: 7%;
+    bottom: 20%;
+    width: 160px;
 }
