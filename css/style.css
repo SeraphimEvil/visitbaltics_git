@@ -1657,3 +1657,36 @@ a:hover {
     background-image: url(../img/stickers/sticker3.png);
     transform: translate(-24%, 30%) rotate(-7deg);
 }
+
+/*trakai*/
+.tallinn-trakai {
+    margin-bottom: 90px;
+}
+
+.tallinn-trakai .full-figure__note {
+    top: 8%;
+    right: 20%;
+    width: 80px;
+    color: #ffffff;
+}
+
+.tallinn-trakai {
+    color: white;
+}
+
+.tallinn-trakai .title {
+    color: #2d9ed4;
+}
+
+.tallinn-trakai .full-figure {
+    background-color: #82b0fa;
+}
+
+.tallinn-trakai .full-figure__caption {
+    position: absolute;
+    top: 2%;
+    left: var(--offset);
+    min-width: 320px;
+    width: 33%;
+    color: #2d9ed4;
+}
