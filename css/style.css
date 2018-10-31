@@ -1612,3 +1612,33 @@ a:hover {
     background-image: url("../img/stickers/sticker2.png");
     transform: translate(16%, 35%);
 }
+
+/*tallinn kuldiga*/
+.tallinn-kuldiga {
+    margin-bottom: 90px;
+}
+
+.tallinn-kuldiga .title {
+    color: #de8304;
+}
+
+.tallinn-kuldiga .full-figure__sticker {
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 262px;
+    padding: 45px;
+    background-image: url(../img/stickers/sticker3.png);
+    transform: translate(-24%, 30%) rotate(15deg);
+}
+
+.tallinn-kuldiga .full-figure__note {
+    top: 45%;
+    left: 22%;
+    width: 90px;
+    color: #000000;
+}
+
+.tallinn-kuldiga .full-figure__note {
+
+}
