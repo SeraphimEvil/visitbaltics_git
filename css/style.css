@@ -1570,3 +1570,45 @@ a:hover {
     background-image: url(../img/stickers/sticker4.png);
     transform: translate(0%, 0%) rotate(17deg);
 }
+
+/*seaside*/
+.tallinn-seaside {
+    margin-bottom: 90px;
+}
+
+.tallinn-seaside .full-figure__note {
+    top: 58%;
+    right: 6%;
+    width: 80px;
+    color: #ffffff;
+}
+
+.tallinn-seaside {
+    color: white;
+}
+
+.tallinn-seaside .title {
+    color: #9389ab;
+}
+
+.tallinn-seaside .full-figure {
+    background-color: #82b0fa;
+}
+
+.tallinn-seaside .full-figure__caption {
+    position: absolute;
+    top: 2%;
+    left: var(--offset);
+    min-width: 320px;
+    width: 33%;
+    color: #ffffff;
+}
+
+.tallinn-seaside .full-figure__sticker {
+    right: 2%;
+    bottom: 0;
+    height: 190px;
+    width: 290px;
+    background-image: url("../img/stickers/sticker2.png");
+    transform: translate(16%, 35%);
+}
