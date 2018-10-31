@@ -1639,6 +1639,21 @@ a:hover {
     color: #000000;
 }
 
-.tallinn-kuldiga .full-figure__note {
+/*tallinn kaunas*/
+.tallinn-kaunas {
+    margin-bottom: 90px;
+}
 
+.tallinn-kaunas .title {
+    color: #dd8f88;
+}
+
+.tallinn-kaunas .full-figure__sticker {
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 262px;
+    padding: 45px;
+    background-image: url(../img/stickers/sticker3.png);
+    transform: translate(-24%, 30%) rotate(-7deg);
 }
