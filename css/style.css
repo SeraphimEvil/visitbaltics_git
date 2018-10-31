@@ -1495,3 +1495,78 @@ a:hover {
     bottom: 20%;
     width: 160px;
 }
+
+
+/*vilnius ventspils*/
+.vilnius-ventspils {
+    margin-bottom: 90px;
+}
+
+.vilnius-ventspils .title {
+    color: #a0288b;
+}
+
+
+.vilnius-ventspils__cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.vilnius-ventspils__col {
+    display: flex;
+    min-width: 355px;
+    width: 40%;
+    flex-direction: column;
+    min-height: 500px;
+    margin-right: 10px;
+}
+
+.vilnius-ventspils .text {
+    margin-bottom: 35px;
+}
+
+.figure_fem-cow {
+    margin-top: auto;
+    margin-left: calc(var(--padding) * -1);
+}
+
+.figure_fem-cow .figure__caption {
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+    width: 100px;
+}
+
+.figure_fem-cow img {
+    width: calc(590px / 2);
+    height: calc(712px / 2);
+}
+
+.figure_ventspils {
+    width: 372px;
+}
+
+.figure_pomengrate-cow {
+    position: relative;
+    top: -50px;
+    width: calc(910px / 2);
+}
+
+.figure_pomengrate-cow .figure__caption {
+    position: absolute;
+    width: 110px;
+    left: 25%;
+    bottom: 10%;
+}
+
+.vilnius-ventspils .full-figure__sticker {
+    left: 30%;
+    top: 30%;
+    width: 253px;
+    height: 253px;
+    padding: 30px;
+    background-image: url(../img/stickers/sticker4.png);
+    transform: translate(0%, 0%) rotate(17deg);
+}
