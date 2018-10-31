@@ -1196,10 +1196,41 @@ a:hover {
     margin-right: 5px;
 }
 
+.footer__img {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    transition: 300ms ease-out;
+    background-size: cover;
+}
+
+.footer__img--facebook {
+    background-image: url(../img/facebook_footer.png);
+}
+
+.footer__img--facebook:hover {
+    background-image: url(../img/facebook_hover.png);
+}
+
+.footer__img--insta {
+    background-image: url(../img/inst.png);
+}
+
+.footer__img--insta:hover {
+    background-image: url(../img/inst_hover.png);
+}
+
 .footer__img-link img {
     position: absolute;
     top: 50%;
     transform: translateY(-100%);
+    transition: 300ms ease-out;
+}
+
+.footer__img-link:hover img {
+    opacity: 0;
 }
 
 /*
