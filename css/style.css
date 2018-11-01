@@ -1307,6 +1307,7 @@ a:hover {
   background-image: url(../img/stickers/sticker3.png);
   /*transform: translate(24%, -30%) rotate(-22deg);*/
   transform: translate(10%, -30%) rotate(-22deg);
+  background-size: cover;
 }
 
 .tallinn-kemeri .full-figure__note {
@@ -1898,4 +1899,59 @@ a:hover {
 .figure_sign img {
   position: absolute;
   bottom: 0;
+}
+
+/*kaunas-white*/
+.kaunas-white {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+  min-height: calc((1006px / 2) - 100px);
+}
+
+.kaunas-white__cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.kaunas-white__left {
+  min-width: 295px;
+  width: 30%;
+}
+
+.kaunas-white .text {
+  margin-bottom: 70px;
+}
+
+.kaunas-white .full-figure__sticker {
+  left: 0;
+  bottom: 0;
+  height: 190px;
+  width: 290px;
+  background-image: url("../img/stickers/sticker2.png");
+  transform: translate(0%, 15%);
+}
+
+.kaunas-white__right {
+  display: flex;
+  width: 640px;
+  position: relative;
+}
+
+.figure_church {
+  position: absolute;
+  top: -50px;
+  left: 5%;
+  width: calc(830px / 2);
+  height: calc(1006px / 2);
+  z-index: 2;
+  margin-left: 7%;
+}
+
+.kaunas-white .figure_church .figure__caption {
+  position: absolute;
+  top: 50%;
+  right: -30%;
+  width: 100px;
 }
