@@ -1930,7 +1930,7 @@ a:hover {
   height: 190px;
   width: 290px;
   background-image: url("../img/stickers/sticker2.png");
-  transform: translate(0%, 15%);
+  transform: translate(0%, 5%);
 }
 
 .kaunas-white__right {
@@ -1951,7 +1951,7 @@ a:hover {
 
 .kaunas-white .figure_church .figure__caption {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: -30%;
   width: 100px;
 }
