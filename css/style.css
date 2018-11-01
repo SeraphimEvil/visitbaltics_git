@@ -1826,3 +1826,76 @@ a:hover {
   left: -30%;
   width: 105px;
 }
+
+/*klaipeda-white*/
+.klaipeda-white {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.klaipeda-white__cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.klaipeda-white__left {
+  min-width: 265px;
+  width: 30%;
+}
+
+.klaipeda-white .text {
+  margin-bottom: 70px;
+}
+
+.klaipeda-white .figure_mouse {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.klaipeda-white .figure_mouse img {
+  width: calc(208px / 2);
+}
+
+.klaipeda-white .figure_mouse .figure__caption {
+  width: 90px;
+  margin-left: 15px;
+  margin-top: 20%;
+}
+
+.klaipeda-white__right {
+  display: flex;
+  width: 640px;
+  position: relative;
+}
+
+.figure_dragon {
+  position: absolute;
+  top: -50px;
+  left: 5%;
+  width: calc(1050px / 2);
+  height: calc(600px / 2);
+  z-index: 2;
+}
+
+.klaipeda-white .figure_dragon .figure__caption {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 100px;
+}
+
+.figure_sign {
+  position: absolute;
+  top: 0;
+  width: calc(271px);
+  height: calc(401px);
+  right: 0;
+  z-index: 2;
+}
+
+.figure_sign img {
+  position: absolute;
+  bottom: 0;
+}
