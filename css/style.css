@@ -1689,3 +1689,65 @@ a:hover {
   width: 33%;
   color: #2d9ed4;
 }
+
+
+/*kuldiga-town*/
+.kuldiga-town {
+  margin-bottom: 170px;
+  margin-top: 170px;
+}
+
+.kuldiga-town__cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.kuldiga-town__left {
+  min-width: 350px;
+  width: 30%;
+}
+
+.kuldiga-town .text {
+  margin-bottom: 35px;
+}
+
+.kuldiga-town .figure_price {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+.figure_price img {
+  width: 182px;
+}
+
+.kuldiga-town .figure_price .figure__caption {
+  width: 65px;
+  margin-left: 0;
+  margin-top: 30%;
+}
+
+.kuldiga-town__right {
+  display: flex;
+  width: 640px;
+  position: relative;
+}
+
+.figure_cake {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: calc(732px / 2);
+  height: calc(487px / 2);
+  z-index: 2;
+}
+
+.figure_milk {
+  position: absolute;
+  top: 100px;
+  width: calc(640px / 2);
+  height: calc(576px / 2);
+  right: calc(var(--padding) * -1);
+  z-index: 1;
+}
