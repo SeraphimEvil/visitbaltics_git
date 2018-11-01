@@ -7,4 +7,11 @@
     mobile: false
   }).init();
 
+  var imgInstaHover = document.createElement('img');
+  imgInstaHover.setAttribute('src', './img/inst_hover.png');
+
+  var imgFacebookHover = document.createElement('img');
+  imgFacebookHover.setAttribute('src', './img/facebook_hover.png');
+
+
 })();
