@@ -155,6 +155,13 @@ a:hover {
 
 .page {
   min-width: 320px;
+  overflow: hidden;
+}
+
+@media (max-width: 999px) {
+  .page {
+    overflow: auto;
+  }
 }
 
 .container {
