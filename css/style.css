@@ -1365,6 +1365,7 @@ a:hover {
 .tallinn-cape .figure_bird {
   position: absolute;
   top: 0;
+  left: auto;
   right: 10%;
   width: calc(554px / 2);
   height: calc(234px / 2);
