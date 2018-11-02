@@ -160,7 +160,7 @@ a:hover {
 
 @media (max-width: 999px) {
   .page {
-    overflow: auto;
+    overflow: visible;
   }
 }
 
