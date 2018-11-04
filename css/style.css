@@ -1979,9 +1979,18 @@ a:hover {
 
 
 /*intro effect*/
+.intro {
+  padding-top: 0;
+}
+
+.intro.intro--scrolled {
+  padding-top: 35px;
+}
+
 .intro .full-figure {
   width: 100vw;
-  height: calc(100vh - 35px + 35px + 28px);
+  /*height: calc(100vh - 35px + 35px + 28px);*/
+  height: calc(100vh - 35px + 35px);
   position: relative;
   /*top: 50%;*/
   /*left: 50%;*/
