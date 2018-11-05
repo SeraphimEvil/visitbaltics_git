@@ -185,6 +185,9 @@ a:hover {
 @media (max-width: 999px) {
   .intro--second .full-figure__logo {
     width: 513px;
+    top: 1%;
+    left: 2%;
+    transform: translate(0%, 0%);
   }
 }
 
