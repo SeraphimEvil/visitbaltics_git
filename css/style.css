@@ -168,12 +168,24 @@ a:hover {
   width: 59vw;
 }
 
+@media (max-width: 999px) {
+  .intro .full-figure__logo {
+    width: 588px;
+  }
+}
+
 .intro--second .full-figure__logo {
   top: 50%;
   left: 50%;
   transform: translate(-100%, -100%);
   /*width: 513px;*/
   width: 44vw;
+}
+
+@media (max-width: 999px) {
+  .intro--second .full-figure__logo {
+    width: 513px;
+  }
 }
 
 .page {
