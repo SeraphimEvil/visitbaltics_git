@@ -153,6 +153,24 @@ a:hover {
   font-weight: 600;
 }
 
+.full-figure__logo {
+  position: absolute;
+  /*top: 0;*/
+  /*left: 0;*/
+}
+
+.intro .full-figure__logo {
+  right: 3%;
+  top: 6%;
+  /*transform: translate(-100%, -100%);*/
+}
+
+.intro--second .full-figure__logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+}
+
 .page {
   min-width: 320px;
   overflow: hidden;
@@ -1297,7 +1315,8 @@ a:hover {
 /*Intro second*/
 .intro--second .full-figure__note_intro {
   right: auto;
-  top: 45%;
+  /*top: 45%;*/
+  top: 55%;
   left: 35%;
 }
 
@@ -1993,14 +2012,14 @@ a:hover {
   max-width: 2000px;
   /*height: calc(100vh - 35px + 35px + 28px);*/
   /*height: calc(100vh - 35px + 35px);*/
-  position: relative;
+  /*position: relative;*/
   /*top: 50%;*/
   /*left: 50%;*/
   /*top: -120px;*/
   /*left: -60px;*/
   /*transform: translate(calc(-60px), calc(-98px));*/
-  transition: 600ms ease-out;
-  margin: 0 auto;
+  /*transition: 600ms ease-out;*/
+  /*margin: 0 auto;*/
   /*position: fixed;*/
   /*top: 0;*/
   /*left: 0;*/
