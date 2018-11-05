@@ -2049,6 +2049,10 @@ a:hover {
   font-weight: bold;
 }
 
+.full-figure__link:hover {
+  color: #ffffff;
+}
+
 .full-figure__link--second {
   align-items: flex-end;
 }
