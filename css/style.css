@@ -1989,6 +1989,7 @@ a:hover {
 
 .intro .full-figure {
   width: 100vw;
+  max-width: 2000px;
   /*height: calc(100vh - 35px + 35px + 28px);*/
   height: calc(100vh - 35px + 35px);
   position: relative;
