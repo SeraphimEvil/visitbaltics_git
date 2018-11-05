@@ -165,7 +165,8 @@ a:hover {
   /*transform: translate(-100%, -100%);*/
 
   /*width: 588px;*/
-  width: 55vw;
+  /*width: 55vw;*/
+  width: 45vw;
 }
 
 @media (max-width: 999px) {
@@ -178,10 +179,10 @@ a:hover {
 
 .intro--second .full-figure__logo {
   top: 50%;
-  left: 50%;
+  left: 51%;
   transform: translate(-100%, -100%);
-  /*width: 513px;*/
-  width: 40vw;
+  width: 513px;
+  /*width: 40vw;*/
 }
 
 @media (max-width: 999px) {
