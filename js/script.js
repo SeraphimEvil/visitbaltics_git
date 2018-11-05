@@ -7,30 +7,11 @@
     mobile: false
   }).init();
 
-  // Scroll intro
-  // var currentScrollPosition = window.scrollY;
-  // var introElement = document.querySelector('.intro');
-  //
-  // var addIntroScrolledClass = function() {
-  //   introElement.classList.add('intro--scrolled');
-  // };
-  //
-  // if (currentScrollPosition > 0) {
-  //   addIntroScrolledClass();
-  // }
-  //
-  // window.addEventListener('scroll', function (event) {
-  //   if (!introElement.classList.contains('intro--scrolled')) {
-  //     addIntroScrolledClass();
-  //   }
-  // })
-
   var imgSetAttribute = function (link) {
-    console.log(link)
-
-    document.createElement('img').setAttribute('src', './img/' + link);
+    document
+      .createElement('img')
+      .setAttribute('src', './img/' + link);
   };
-
 
   var uploadAllImages = function () {
     imgSetAttribute('inst_hover.png');
@@ -51,7 +32,7 @@
     imgSetAttribute('tallinn/cola.jpg');
     imgSetAttribute('tallinn/coffee.jpg');
     imgSetAttribute('tallinn/kadriorg.jpg');
-    imgSetAttribute('tallinn/kadriorgflower_bg.jpg');
+    imgSetAttribute('tallinn/flower_bg.jpg');
     imgSetAttribute('tallinn/palace.jpg');
     imgSetAttribute('tallinn/viewpoint.jpg');
     imgSetAttribute('riga/mans.jpg');
@@ -80,17 +61,34 @@
     imgSetAttribute('vilnius/balloon.png');
 
     // page vilnius
-
-
-
-
-
-
-
+    imgSetAttribute('intro/main_vilnius-no-logo.jpg');
+    imgSetAttribute('intro/logo2.png');
+    imgSetAttribute('kemeri/bog.jpg');
+    imgSetAttribute('kemeri/bird.jpg');
+    imgSetAttribute('kolka/kolka.jpg');
+    imgSetAttribute('kolka/bird_small.png');
+    imgSetAttribute('ventspils/fem_cow.jpg');
+    imgSetAttribute('ventspils/pomengrate_cow.jpg');
+    imgSetAttribute('seaside/seaside.jpg');
+    imgSetAttribute('kuldiga/kuldiga.jpg');
+    imgSetAttribute('kuldiga/kuldiga_price.jpg');
+    imgSetAttribute('kuldiga/cake.png');
+    imgSetAttribute('kuldiga/milk.jpg');
+    imgSetAttribute('remains/liepaja.jpg');
+    imgSetAttribute('horses/horses.jpg');
+    imgSetAttribute('horses/price.jpg');
+    imgSetAttribute('horses/bird.jpg');
+    imgSetAttribute('horses/cow.png');
+    imgSetAttribute('klaipeda/klaipeda.jpg');
+    imgSetAttribute('klaipeda/mouse.jpg');
+    imgSetAttribute('klaipeda/dragon.jpg');
+    imgSetAttribute('klaipeda/sign.png');
+    imgSetAttribute('kaunas/kaunas.jpg');
+    imgSetAttribute('kaunas/church.jpg');
+    imgSetAttribute('trakai/trakai.jpg');
 
   };
 
   uploadAllImages();
-
 
 })();
