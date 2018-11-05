@@ -1983,9 +1983,9 @@ a:hover {
   padding-top: 0;
 }
 
-.intro.intro--scrolled {
-  padding-top: 35px;
-}
+/*.intro.intro--scrolled {*/
+  /*padding-top: 35px;*/
+/*}*/
 
 .intro .full-figure {
   width: 100vw;
@@ -2004,17 +2004,17 @@ a:hover {
   /*left: 0;*/
 }
 
-.intro.intro--scrolled .full-figure {
-  min-width: 1000px;
-  max-width: 1300px;
-  width: 100%;
-  padding: 0 var(--padding);
-  height: auto;
-  /*top: 0;*/
-  /*left: 0;*/
-  /*transform: translate(-50%, -50%);*/
-  /*transform: translate(0, 0);*/
-}
+/*.intro.intro--scrolled .full-figure {*/
+  /*min-width: 1000px;*/
+  /*max-width: 1300px;*/
+  /*width: 100%;*/
+  /*padding: 0 var(--padding);*/
+  /*height: auto;*/
+  /*!*top: 0;*!*/
+  /*!*left: 0;*!*/
+  /*!*transform: translate(-50%, -50%);*!*/
+  /*!*transform: translate(0, 0);*!*/
+/*}*/
 
 .intro .full-figure__img {
   width: 100%;

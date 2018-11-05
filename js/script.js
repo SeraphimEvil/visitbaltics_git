@@ -15,22 +15,22 @@
   imgFacebookHover.setAttribute('src', './img/facebook_hover.png');
 
   // Scroll intro
-  var currentScrollPosition = window.scrollY;
-  var introElement = document.querySelector('.intro');
-
-  var addIntroScrolledClass = function() {
-    introElement.classList.add('intro--scrolled');
-  };
-
-  if (currentScrollPosition > 0) {
-    addIntroScrolledClass();
-  }
-
-  window.addEventListener('scroll', function (event) {
-    if (!introElement.classList.contains('intro--scrolled')) {
-      addIntroScrolledClass();
-    }
-  })
+  // var currentScrollPosition = window.scrollY;
+  // var introElement = document.querySelector('.intro');
+  //
+  // var addIntroScrolledClass = function() {
+  //   introElement.classList.add('intro--scrolled');
+  // };
+  //
+  // if (currentScrollPosition > 0) {
+  //   addIntroScrolledClass();
+  // }
+  //
+  // window.addEventListener('scroll', function (event) {
+  //   if (!introElement.classList.contains('intro--scrolled')) {
+  //     addIntroScrolledClass();
+  //   }
+  // })
 
 
 })();
