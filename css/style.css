@@ -1534,7 +1534,7 @@ a:hover {
 /*vilnius-kemeri*/
 .vilnius-kemeri__cols {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .vilnius-kemeri__col {
@@ -1543,7 +1543,7 @@ a:hover {
 }
 
 .vilnius-kemeri .figure_bird {
-  width: 70%;
+  width: 65%;
   position: relative;
   top: -55px;
 }
@@ -1811,7 +1811,7 @@ a:hover {
   top: 100px;
   width: calc(640px / 2);
   height: calc(576px / 2);
-  right: calc(var(--padding) * -1);
+  right: calc(var(--padding) * -1 / 2);
   z-index: 1;
 }
 
@@ -2084,4 +2084,10 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-family: inherit;
+}
+
+* {
+  ackground: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
