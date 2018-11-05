@@ -165,7 +165,7 @@ a:hover {
   /*transform: translate(-100%, -100%);*/
 
   /*width: 588px;*/
-  width: 59vw;
+  width: 55vw;
 }
 
 @media (max-width: 999px) {
@@ -181,7 +181,7 @@ a:hover {
   left: 50%;
   transform: translate(-100%, -100%);
   /*width: 513px;*/
-  width: 44vw;
+  width: 40vw;
 }
 
 @media (max-width: 999px) {
