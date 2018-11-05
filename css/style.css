@@ -171,7 +171,7 @@ a:hover {
 
 @media (max-width: 999px) {
   .intro .full-figure__logo {
-    width: 588px;
+    width: 450px;
     top: 13%;
     right: 6%;
   }
