@@ -2028,7 +2028,7 @@ a:hover {
 .intro .full-figure {
   width: 100vw;
   min-width: 1000px;
-  max-width: 2000px;
+  /*max-width: 2000px;*/
 }
 
 @media (max-width: 999px) {
