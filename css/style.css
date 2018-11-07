@@ -488,7 +488,8 @@ a:hover {
 }
 
 .figure_cola .figure__caption {
-  margin-left: 22px;
+  /*margin-left: 22px;*/
+  margin-left: 5px;
 }
 
 .figure_coffee {
