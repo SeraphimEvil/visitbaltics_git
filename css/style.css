@@ -185,11 +185,11 @@ a:hover {
   width: 40vw;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1023px) {
   .intro--second .full-figure__logo {
-    width: 500px;
-    top: 1%;
-    left: 2%;
+    width: 400px;
+    top: 3%;
+    left: 3%;
     transform: translate(0%, 0%);
   }
 }
@@ -211,6 +211,16 @@ a:hover {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 var(--padding);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    min-width: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+  }
+
 }
 
 .intro {
@@ -1336,12 +1346,24 @@ a:hover {
   padding: 30px;
 }
 
+@media (max-width: 1023px) {
+  .tallinn-remains .full-figure__sticker {
+    transform: translate(7%, 20%);
+  }
+}
+
 /*Intro second*/
 .intro--second .full-figure__note_intro {
   right: auto;
-  /*top: 45%;*/
   top: 55%;
   left: 35%;
+}
+
+@media (max-width: 1023px) {
+  .intro--second .full-figure__note_intro {
+    top: 57%;
+    left: 35%;
+  }
 }
 
 .intro--second .intro__title {
@@ -1372,6 +1394,15 @@ a:hover {
   background-size: cover;
 }
 
+@media (max-width: 1023px) {
+  .tallinn-kemeri .full-figure__sticker {
+    top: auto;
+    bottom: -100px;
+    right: 5px;
+    transform: translate(0%, -30%) rotate(-22deg);
+  }
+}
+
 .tallinn-kemeri .full-figure__note {
   color: white;
 }
@@ -1382,10 +1413,24 @@ a:hover {
   width: 90px;
 }
 
+@media (max-width: 1023px) {
+  .tallinn-kemeri .full-figure__note_bogs {
+    top: 5%;
+    right: 20%;
+  }
+}
+
 .tallinn-kemeri .full-figure__note_length {
   top: 4%;
   left: 30%;
   width: 100px;
+}
+
+@media (max-width: 1023px) {
+  .tallinn-kemeri .full-figure__note_length {
+    top: 3%;
+    left: 28%;
+  }
 }
 
 /*cape kolka*/
@@ -1475,6 +1520,12 @@ a:hover {
   background-image: url(../img/stickers/sticker2.png);
   transform: translate(20%, 35%);
   background-size: cover;
+}
+
+@media (max-width: 1023px) {
+  .tallinn-horses .full-figure__sticker {
+    transform: translate(10%, 35%);
+  }
 }
 
 /*klaipeda*/
@@ -1647,6 +1698,12 @@ a:hover {
   color: #ffffff;
 }
 
+@media (max-width: 1023px) {
+  .tallinn-seaside .full-figure__note {
+    top: 51%;
+  }
+}
+
 .tallinn-seaside {
   color: white;
 }
@@ -1677,6 +1734,12 @@ a:hover {
   transform: translate(16%, 35%);
 }
 
+@media (max-width: 1023px) {
+  .tallinn-seaside .full-figure__sticker {
+    transform: translate(14%, 35%);
+  }
+}
+
 /*tallinn kuldiga*/
 .tallinn-kuldiga {
   margin-bottom: 90px;
@@ -1696,11 +1759,23 @@ a:hover {
   transform: translate(-24%, 30%) rotate(15deg);
 }
 
+@media (max-width: 1023px) {
+  .tallinn-kuldiga .full-figure__sticker {
+    transform: translate(-10%, 30%) rotate(15deg);
+  }
+}
+
 .tallinn-kuldiga .full-figure__note {
   top: 45%;
   left: 22%;
   width: 90px;
   color: #000000;
+}
+
+@media (max-width: 1023px) {
+  .tallinn-kuldiga .full-figure__note {
+    left: 21%;
+  }
 }
 
 /*tallinn kaunas*/
@@ -1720,6 +1795,12 @@ a:hover {
   padding: 45px;
   background-image: url(../img/stickers/sticker3.png);
   transform: translate(-24%, 30%) rotate(-7deg);
+}
+
+@media (max-width: 1023px) {
+  .tallinn-kaunas .full-figure__sticker {
+    transform: translate(-10%, 30%) rotate(-7deg);
+  }
 }
 
 /*trakai*/
@@ -2032,9 +2113,10 @@ a:hover {
   /*max-width: 2000px;*/
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1023px) {
   .intro .full-figure {
-    width: auto;
+    width: 100%;
+    min-width: auto;
   }
 }
 
