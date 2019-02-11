@@ -1879,6 +1879,13 @@ a:hover {
   }
 }
 
+@media (max-width: 767px) {
+  .tallinn-seaside .full-figure__caption {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
 .tallinn-seaside .full-figure__sticker {
   right: 2%;
   bottom: 0;
