@@ -1332,7 +1332,7 @@ a:hover {
   transform: translateY(-80%);
   transition: 300ms ease-out;
   background-size: cover;
-}.intro--second .full-figure__logo
+}
 
 .footer__img--facebook {
   background-image: url(../img/facebook_footer.png);
@@ -1428,9 +1428,12 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-remains .full-figure__sticker {
-    width: 220px;
-    height: 131px;
+    width: 190px;
+    height: 91px;
     background-size: contain;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 35px;
   }
 }
 
@@ -1493,11 +1496,11 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-kemeri .full-figure__sticker {
-    font-size: 14px;
-    line-height: 16px;
-    width: 120px;
-    height: 120px;
-    padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
     bottom: -80px;
   }
 }
@@ -1654,9 +1657,11 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-horses .full-figure__sticker {
-    height: 138px;
-    width: 210px;
+    height: 108px;
+    width: 165px;
     padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
@@ -1699,6 +1704,7 @@ a:hover {
     width: 70%;
     font-size: 14px;
     line-height: 16px;
+    top: 0;
   }
 }
 
@@ -1881,7 +1887,7 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-seaside .full-figure__caption {
-    width: 100%;
+    width: auto;
     min-width: auto;
   }
 }
@@ -1903,8 +1909,11 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-seaside .full-figure__sticker {
-    height: 131px;
-    width:  200px;
+    height: 101px;
+    width:  155px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px;
 
     transform: translate(10%, 35%);
   }
@@ -1937,9 +1946,11 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-kuldiga .full-figure__sticker {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
@@ -1991,9 +2002,11 @@ a:hover {
 
 @media (max-width: 767px) {
   .tallinn-kaunas .full-figure__sticker {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
