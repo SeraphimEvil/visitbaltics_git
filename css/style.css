@@ -98,6 +98,13 @@ a:hover {
   margin-bottom: 13px;
 }
 
+@media (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 .title_before-full {
   margin-bottom: 4px;
 }
@@ -187,6 +194,12 @@ a:hover {
     width: 450px;
     top: 13%;
     right: 6%;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro .full-figure__logo {
+    width: 50vw;
   }
 }
 
@@ -307,6 +320,20 @@ a:hover {
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .location__title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-figure__img {
+    width: 40vw;
+  }
+}
+
+
 .location__name {
   position: relative;
 }
@@ -320,6 +347,13 @@ a:hover {
   height: 63px;
   background: url("../img/tallinn/tallinn_flag.png");
   background-size: cover;
+}
+
+@media (max-width: 1023px) {
+  .location__name::before {
+    width: 33px;
+    height: 33px;
+  }
 }
 
 /*figures default*/
@@ -375,10 +409,26 @@ a:hover {
   transform: translate(-14%, 32%);
 }
 
+@media (max-width: 767px) {
+  .location_tallinn .location__intro .full-figure__sticker {
+    font-size: 12px;
+    line-height: 14px;
+    width: 135px;
+    height: 117px;
+    position: absolute;
+  }
+}
+
 .location_tallinn .list-figure {
   bottom: 0;
   right: 0;
   transform: translate(16%, 38%);
+}
+
+@media (max-width: 1023px) {
+  .location_tallinn .list-figure {
+    transform: translate(7%, 38%);
+  }
 }
 
 .location_tallinn .full-figure {
@@ -394,6 +444,12 @@ a:hover {
   color: #e98eb3;
 }
 
+@media (max-width: 767px) {
+  .tallinn-details .title {
+    font-size: 30px;
+  }
+}
+
 .tallinn-details .text {
   width: 255px;
 }
@@ -407,6 +463,18 @@ a:hover {
   margin-right: calc(var(--padding) * -1);
 }
 
+@media (max-width: 1023px) {
+  .tallinn-details__cols {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .tallinn-details__cols {
+    top: 0;
+  }
+}
+
 .tallinn-details .figure {
   position: relative;
 }
@@ -415,6 +483,12 @@ a:hover {
   align-self: flex-end;
   bottom: -17px;
   margin-right: 81px;
+}
+
+@media (max-width: 767px) {
+  .figure_knocker {
+    bottom: 60px;
+  }
 }
 
 .figure_door {
@@ -426,6 +500,12 @@ a:hover {
   align-self: flex-start;
   width: 230px;
   /*margin-left: auto;*/
+}
+
+@media (max-width: 1023px) {
+  .figure_lantern {
+    display: none;
+  }
 }
 
 .tallinn-details .figure__caption {
@@ -457,6 +537,12 @@ a:hover {
   width: 185px;
 }
 
+@media (max-width: 767px) {
+  .tallinn-town-hall .full-figure__note {
+    top: 18%;
+  }
+}
+
 .tallinn-town-hall {
   color: white;
 }
@@ -476,6 +562,15 @@ a:hover {
   width: 200px;
 }
 
+@media (max-width: 767px) {
+  .tallinn-town-hall .full-figure__caption {
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    left: 1px;
+  }
+}
+
 .tallinn-town-hall .full-figure__sticker {
   right: 0;
   bottom: 0;
@@ -483,6 +578,21 @@ a:hover {
   width: 290px;
   background-image: url("../img/stickers/sticker2.png");
   transform: translate(16%, 20%);
+}
+
+@media (max-width: 1023px) {
+  .tallinn-town-hall .full-figure__sticker {
+    transform: translate(8%, 20%);
+  }
+}
+
+@media (max-width: 767px) {
+  .tallinn-town-hall .full-figure__sticker {
+    width: 190px;
+    height: 125px;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 /*tallinn vana*/
@@ -504,8 +614,21 @@ a:hover {
   width: 683px;
 }
 
+@media (max-width: 767px) {
+  .figure_bottle__texts {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 .figure_bottle .text {
   width: 320px;
+}
+
+@media (max-width: 767px) {
+  .figure_bottle .text {
+    width: 100%;
+  }
 }
 
 .figure_bottle .figure__img {
@@ -516,10 +639,22 @@ a:hover {
   height: 370px;
 }
 
+@media (max-width: 1023px) {
+  .figure_bottle .figure__img {
+    display: none;
+  }
+}
+
 .tallinn-vana__cols {
   display: flex;
   align-items: baseline;
   margin-top: -212px;
+}
+
+@media (max-width: 1023px) {
+  .tallinn-vana__cols {
+    margin-top: 0;
+  }
 }
 
 .figure_ice {
@@ -568,6 +703,15 @@ a:hover {
   color: #bd6160;
 }
 
+@media (max-width: 767px) {
+  .tallinn-kadriorg .full-figure__caption {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    left: 1px;
+  }
+}
+
 .tallinn-kadriorg .full-figure__sticker {
   left: 0;
   bottom: 0;
@@ -577,11 +721,24 @@ a:hover {
   transform: translate(-8%, 36%) rotate(-18deg);
 }
 
+@media (max-width: 767px) {
+  .tallinn-kadriorg .full-figure__sticker {
+    width: 160px;
+    height: 160px;
+  }
+}
+
 .tallinn-kadriorg__cols {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 70px;
+}
+
+@media (max-width: 767px) {
+  .tallinn-kadriorg__cols {
+    flex-direction: column;
+  }
 }
 
 .tallinn-kadriorg__texts {
@@ -606,8 +763,21 @@ a:hover {
   margin-left: 50px;
 }
 
+@media (max-width: 767px) {
+  .figure_flower {
+    margin-top: 0;
+  }
+}
+
 .figure_palace {
   width: 359px;
+}
+
+@media (max-width: 767px) {
+  .figure_palace {
+    width: auto;
+    max-width: 100%;
+  }
 }
 
 /*tallinn viewpoint*/
@@ -629,6 +799,20 @@ a:hover {
   transform: translate(13%, -17%) rotate(13deg);
 }
 
+@media (max-width: 1023px) {
+  .tallinn-viewpoint .full-figure__sticker {
+    transform: translate(2%, 80%) rotate(13deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .tallinn-viewpoint .full-figure__sticker {
+    width: 150px;
+    height: 150px;
+    transform: translate(-2%, 70%) rotate(13deg);
+  }
+}
+
 .tallinn-viewpoint .full-figure__note {
   color: white;
 }
@@ -641,11 +825,25 @@ a:hover {
   width: 100px;
 }
 
+@media (max-width: 767px) {
+  .full-figure__note_tower {
+    font-size: 14px;
+    line-height: 16px;
+    right: 29%;
+  }
+}
+
 .full-figure__note_sea {
   /*top: 39px;*/
   top: 10%;
   /*left: 104px;*/
   left: 13%;
+}
+
+@media (max-width: 767px) {
+  .full-figure__note_sea {
+    top: 1%;
+  }
 }
 
 /*location riga*/
@@ -659,6 +857,12 @@ a:hover {
   margin-bottom: 80px;
 }
 
+@media (max-width: 767px) {
+  .location_riga .location__intro {
+    margin-bottom: 40px;
+  }
+}
+
 .location_riga .location__name::before {
   background-image: url("../img/riga/riga_flag.png");
 }
@@ -667,8 +871,20 @@ a:hover {
   margin-top: -130px;
 }
 
+@media (max-width: 767px) {
+  .location_riga .location__intro .full-figure {
+    margin-top: 0;
+  }
+}
+
 .location_riga .location__intro .full-figure__img {
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .location_riga .location__intro .full-figure__img {
+    display: none;
+  }
 }
 
 .location_riga .location__intro .full-figure__sticker {
@@ -680,10 +896,33 @@ a:hover {
   background-image: url("../img/stickers/sticker5.png");
 }
 
+@media (max-width: 767px) {
+  .location_riga .location__intro .full-figure__sticker {
+    width: 220px;
+    height: 131px;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: none;
+  }
+}
+
 .location_riga .list-figure {
   top: 0;
   right: 0;
   transform: translate(16%, -10%);
+}
+
+@media (max-width: 1023px) {
+  .location_riga .list-figure {
+    transform: translate(7%, -24%);
+  }
+}
+
+@media (max-width: 767px) {
+  .location_riga .list-figure {
+    display: none;
+  }
 }
 
 /*riga jugendstil*/
@@ -712,6 +951,12 @@ a:hover {
   align-items: flex-start;
 }
 
+@media (max-width: 767px) {
+  .riga-jugendstil__cols {
+    flex-direction: column;
+  }
+}
+
 .riga-jugendstil .text:first-of-type {
   min-width: 285px;
   width: 35%;
@@ -731,6 +976,12 @@ a:hover {
   align-items: center;
 }
 
+@media (max-width: 1023px) {
+  .figure_sphinx {
+    display: none;
+  }
+}
+
 .figure_sphinx .figure__caption {
   width: 105px;
   margin-left: 10px;
@@ -740,6 +991,12 @@ a:hover {
 /*riga blackheads*/
 .riga-blackheads {
   margin-bottom: 237px;
+}
+
+@media (max-width: 767px) {
+  .riga-blackheads {
+    margin-bottom: 100px;
+  }
 }
 
 .riga-blackheads .title {
@@ -755,6 +1012,16 @@ a:hover {
   transform: translate(-11%, 58%);
 }
 
+@media (max-width: 767px) {
+  .riga-blackheads .full-figure__sticker {
+    width: 135px;
+    height: 120px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 20px;
+  }
+}
+
 .riga-blackheads .full-figure__note {
   color: white;
 }
@@ -767,12 +1034,32 @@ a:hover {
   width: 105px;
 }
 
+@media (max-width: 767px) {
+  .full-figure__note_rats {
+    font-size: 14px;
+    line-height: 16px;
+    left: auto;
+    right: 10%;
+  }
+}
+
 .full-figure__note_nazis {
   /*top: 60px;*/
   top: 16%;
   /*right: 220px;*/
   right: 30%;
   width: 185px;
+}
+
+@media (max-width: 767px) {
+  .full-figure__note_nazis {
+    font-size: 14px;
+    line-height: 16px;
+    width: 99%;
+    right: auto;
+    left: 1%;
+    top: 1%;
+  }
 }
 
 /*latvian food*/
@@ -790,9 +1077,22 @@ a:hover {
   align-items: flex-start;
 }
 
+@media (max-width: 767px) {
+  .riga-food__cols {
+    flex-direction: column;
+  }
+}
+
 .riga-food__left {
   min-width: 365px;
   width: 30%;
+}
+
+@media (max-width: 767px) {
+  .riga-food__left {
+    min-width: auto;
+    width: 100%;
+  }
 }
 
 .riga-food .text {
@@ -839,10 +1139,22 @@ a:hover {
   left: 0;
 }
 
+@media (max-width: 767px) {
+  .figure_soup {
+    display: none;
+  }
+}
+
 .figure_peas {
   position: absolute;
   top: -156px;
   right: -52px;
+}
+
+@media (max-width: 1023px) {
+  .figure_peas {
+    display: none;
+  }
 }
 
 /*dwelling*/
@@ -855,6 +1167,18 @@ a:hover {
   position: relative;
   z-index: 1;
   color: #f0ce3c;
+}
+
+@media (max-width: 1023px) {
+  .riga-dwelling .title {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .riga-dwelling .title {
+    margin-bottom: 60px;
+  }
 }
 
 .riga-dwelling .full-figure {
@@ -872,10 +1196,23 @@ a:hover {
   left: 11%;
 }
 
+@media (max-width: 767px) {
+  .full-figure__note_17 {
+    top: 20%;
+    left: 4%;
+  }
+}
+
 .full-figure__note_16 {
   top: -50px;
   /*left: 249px;*/
   left: 32%;
+}
+
+@media (max-width: 1023px) {
+  .full-figure__note_16 {
+    top: -55px;
+  }
 }
 
 .full-figure__note_15 {
@@ -892,6 +1229,18 @@ a:hover {
   transform: translate(26%, 30%);
 }
 
+@media (max-width: 1023px) {
+  .figure_maza {
+    transform: translate(18%, 30%);
+  }
+}
+
+@media (max-width: 767px) {
+  .figure_maza {
+    display: none;
+  }
+}
+
 /*riga balsam*/
 .riga-balsam {
   margin-bottom: 90px;
@@ -905,6 +1254,18 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .riga-balsam__cols {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .figure_balsam {
+    display: none;
+  }
 }
 
 .riga-balsam__left {
@@ -956,6 +1317,24 @@ a:hover {
   background-image: url("../img/stickers/sticker3.png");
 }
 
+@media (max-width: 1023px) {
+  .riga-old-town .full-figure__sticker {
+    transform: translate(-9%, 90%) rotate(-25deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .riga-old-town .full-figure__sticker {
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 20px;
+
+    transform: translate(-9%, 60%) rotate(-25deg);
+  }
+}
+
 .riga-old-town .full-figure__note {
   color: white;
 }
@@ -992,6 +1371,12 @@ a:hover {
   transform: translate(15%, 35%);
 }
 
+@media (max-width: 1023px) {
+  .location_vilnius .list-figure {
+    transform: translate(5%, 30%);
+  }
+}
+
 /*vilnius uzupis*/
 .vilnius-uzupis {
   position: relative;
@@ -1011,10 +1396,28 @@ a:hover {
   z-index: 1;
 }
 
+@media (max-width: 1023px) {
+  .figure_emblem {
+    top: 175px;
+  }
+}
+
+@media (max-width: 767px) {
+  .figure_emblem {
+    top: 115px;
+  }
+}
+
 .figure_angel {
   position: absolute;
   right: calc(var(--padding) * -1);
   top: 15px;
+}
+
+@media (max-width: 1023px) {
+  .figure_angel {
+    display: none;
+  }
 }
 
 .vilnius-uzupis__text {
@@ -1023,10 +1426,24 @@ a:hover {
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .vilnius-uzupis__text {
+    margin-top: 200px;
+  }
+}
+
 .vilnius-uzupis .text {
   margin-left: 353px;
   min-width: 330px;
   width: 35%;
+}
+
+@media (max-width: 767px) {
+  .vilnius-uzupis .text {
+    margin-left: 0;
+    min-width: auto;
+    width: 100%;
+  }
 }
 
 /*vilnius bikes*/
@@ -1048,11 +1465,34 @@ a:hover {
   background-image: url("../img/stickers/sticker3.png");
 }
 
+@media (max-width: 1023px) {
+  .vilnius-bikes .full-figure__sticker {
+    transform: translate(-7%, 100%) rotate(-25deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .vilnius-bikes .full-figure__sticker {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    transform: translate(-7%, 60%) rotate(-25deg);
+  }
+}
+
 .full-figure__note_rotuses {
   top: 33px;
   left: 20px;
   width: 120px;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .full-figure__note_rotuses {
+    top: 2px;
+  }
 }
 
 /*vilnius pilies*/
@@ -1070,12 +1510,25 @@ a:hover {
   align-items: flex-start;
 }
 
+@media (max-width: 767px) {
+  .vilnius-pilies__cols {
+    flex-direction: column;
+  }
+}
+
 .vilnius-pilies__col {
   display: flex;
   width: 300px;
   flex-direction: column;
   min-height: 557px;
   margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .vilnius-pilies__col {
+    width: 100%;
+    min-height: 420px;
+  }
 }
 
 .vilnius-pilies .text {
@@ -1087,8 +1540,20 @@ a:hover {
   margin-left: 13px;
 }
 
+@media (max-width: 767px) {
+  .figure_teapot1 {
+    margin-top: 0;
+  }
+}
+
 .figure_pilies {
   width: 372px;
+}
+
+@media (max-width: 767px) {
+  .figure_pilies {
+    width: 100%;
+  }
 }
 
 .figure_teapot2 {
@@ -1096,6 +1561,12 @@ a:hover {
   top: -43px;
   left: 22px;
   width: 203px;
+}
+
+@media (max-width: 1023px) {
+  .figure_teapot2 {
+    display: none;
+  }
 }
 
 .figure_teapot2 .figure__caption {
@@ -1122,6 +1593,17 @@ a:hover {
   color: white;
 }
 
+@media (max-width: 767px) {
+  .vilnius-church .full-figure__caption {
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    top: 3px;
+    color: #000;
+    left: 3px;
+  }
+}
+
 .vilnius-church .full-figure__sticker {
   left: 0;
   bottom: 0;
@@ -1132,12 +1614,31 @@ a:hover {
   transform: translate(-13%, 20%);
 }
 
+@media (max-width: 767px) {
+  .vilnius-church .full-figure__sticker {
+    width: 190px;
+    height: 125px;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
 .full-figure__note_church {
   /*top: 80px;*/
   top: 17%;
   /*right: 55px;*/
   right: 10%;
   width: 90px;
+}
+
+@media (max-width: 767px) {
+  .full-figure__note_church {
+    right: 3%;
+    width: 67px;
+    top: 55%;
+    color: #ffffff;
+  }
 }
 
 /*vilnius balloon*/
@@ -1160,6 +1661,17 @@ a:hover {
   color: white;
 }
 
+@media (max-width: 767px) {
+  .full-figure__note_ballonya {
+    width: 100%;
+    min-width: auto;
+    top: auto;
+
+    bottom: 1px;
+    left: 1px;
+  }
+}
+
 .full-figure__note_flight-price {
   /*top: 46px;*/
   top: 10%;
@@ -1167,6 +1679,12 @@ a:hover {
   left: 51%;
   width: 70px;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .full-figure__note_flight-price {
+    top: 0;
+  }
 }
 
 .figure_balloon {
@@ -1257,6 +1775,12 @@ a:hover {
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
   visibility: visible !important;
+}
+
+@media (max-width: 1023px) {
+  .baloon {
+    display: none;
+  }
 }
 
 .booking__title {
@@ -2691,7 +3215,7 @@ a:hover {
   text-decoration: none;
   color: #ffffff;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start;њ
   font-family: Bureausans, Arial, sans-serif;
   transition: 300ms ease-out;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
