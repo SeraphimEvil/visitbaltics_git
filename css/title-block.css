@@ -1,0 +1,19 @@
+.title-block {
+  margin-top: 75px;
+  margin-bottom: 90px;
+}
+
+.title-block__title {
+  font-size: 42px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.title-block__text {
+  font-size: 32px;
+  line-height: 1.2;
+  color: #1f1f1f;
+  padding-right: 10%;
+}

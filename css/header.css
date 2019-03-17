@@ -1,0 +1,36 @@
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__nav {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f7f5f6;
+  font-weight: 700;
+  margin-left: auto;
+  margin-top: 26px;
+  margin-right: 20px;
+}
+
+.header .container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header__nav li {
+  padding: 0 20px;
+}
+
+.header__lang {
+  color: #e5aec3;
+  background-color: #f7f5f6;
+  padding: 5px 22px 6px 9px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 21px;
+  cursor: pointer;
+}
