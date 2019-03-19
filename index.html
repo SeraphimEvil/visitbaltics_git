@@ -15,11 +15,17 @@
     <!--header-->
     <link rel="stylesheet" href="./css/header.css">
 
+    <!--language-->
+    <link rel="stylesheet" href="./css/language.css">
+
     <!--main-screen-->
     <link rel="stylesheet" href="./css/main-screen.css">
 
     <!--title-block-->
     <link rel="stylesheet" href="./css/title-block.css">
+
+    <!--content-block-->
+    <link rel="stylesheet" href="./css/content-block.css">
 
     <!--feedback-->
     <link rel="stylesheet" href="./css/feedback.css">
@@ -43,7 +49,9 @@
                     <li><a href="#">Блог</a></li>
                 </nav>
                 <div class="header__lang">
-                    RU
+                    <div class="language">
+                        RU
+                    </div>
                 </div>
             </div>
         </header>
@@ -72,16 +80,78 @@
                 </div>
             </div>
 
-            <div class="content-block">
+            <!--Маршруты-->
+            <div class="content-block content-block--color-pink">
+                <div class="content-block__title">
+                    Создаем маршруты
+                </div>
+
+                <div class="content-block__inner">
+                    <div class="content-block__text">
+                        Готовые путеводители по объектам Прибалтики рассчитанные как на один день, так и на несколько
+                        недель.
+                    </div>
+
+                    <div class="content-block__text">
+                        Просто выберите интересный маршрут и отправляйтесь открывать Эстонию, Латвию и Литву.
+                    </div>
+                </div>
+            </div>
+
+            <!--Места-->
+            <div class="content-block content-block--color-orange">
+                <div class="content-block__title">
+                    Показываем интересные места
+                </div>
+
+                <div class="content-block__inner">
+                    <div class="content-block__text">
+                        Описания природных мест, музеев, кафе и фестивалей. Здесь фотографии, цены, адреса, время работы
+                        и советы. Изучайте места и выбирайте, куда поехать.
+                    </div>
+                    <a href="#" class="content-block__link">Список объектов</a>
+                </div>
+
+            </div>
+
+            <!--Люди-->
+            <div class="content-block content-block--color-blue">
+                <div class="content-block__title">
+                    Беседуем с интересными людьми
+                </div>
+
+                <div class="content-block__inner">
+                    <div class="content-block__text">
+                        Интервью с путешественниками, известными личностями и всеми, кто связан с туризмом в Прибалтике.
+                        Вдохновитесь историями, найдите идеи для отдыха и подсмотрите, чем другие занимаются в Эстонии,
+                        Литве и Латвии.
+                    </div>
+                    <a href="#" class="content-block__link">Все интервью</a>
+                </div>
+
+            </div>
+
+            <!--Советы-->
+            <div class="content-block content-block--color-purple">
+                <div class="content-block__title">
+                    Беседуем с интересными людьми
+                </div>
+
+                <div class="content-block__inner">
+                    <div class="content-block__text">
+                        Рассказываем, что взять с собой,
+                        в какое время года лучше посещать достопримечательности, как найти дешевый билет и сэкономить на отдыхе.
+                    </div>
+                    <a href="#" class="content-block__link">Блог</a>
+                </div>
 
             </div>
 
             <div class="feedback">
                 <div class="feedback__text">
                     <p>
-                        Мы сотрудничаем с ресторанами,
-                        кафе, музеями и другими заведениями. Получаем от партнёров скидки и делимся ими с вами. Оставьте
-                        свою почту, чтобы получать специальные предложения
+                        Мы сотрудничаем с ресторанами, кафе, музеями и другими заведениями. Получаем от партнёров скидки
+                        и делимся ими с вами. Оставьте свою почту, чтобы получать специальные предложения
                     </p>
 
                     <p>
@@ -97,7 +167,7 @@
                                 <button type="submit">Go</button>
                             </div>
                         </fieldset>
-                        <fieldset >
+                        <fieldset>
                             <label for="agree" class="checkbox">
                                 <input type="checkbox" id="agree" name="agree">
                                 <span class="checkbox__mark-container">
