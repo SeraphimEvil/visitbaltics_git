@@ -21,6 +21,12 @@
     <!--title-block-->
     <link rel="stylesheet" href="./css/title-block.css">
 
+    <!--feedback-->
+    <link rel="stylesheet" href="./css/feedback.css">
+
+    <!--checkbox-->
+    <link rel="stylesheet" href="./css/checkbox.css">
+
     <title>Visit Baltics</title>
 </head>
 <body>
@@ -58,8 +64,10 @@
                     Что такое "Visit Baltics"
                 </div>
                 <div class="title-block__text">
-                    Visit Baltics &mdash; проект об интересных местах и активностях в&nbsp;Латвии, Литве и&nbsp;Эстонии. Это
-                    проект о&nbsp;любви к&nbsp;Прибалтике. Мы рассказываем о&nbsp;природных объектах и&nbsp;архитектуре, кафе и&nbsp;ресторанах,
+                    Visit Baltics &mdash; проект об интересных местах и активностях в&nbsp;Латвии, Литве и&nbsp;Эстонии.
+                    Это
+                    проект о&nbsp;любви к&nbsp;Прибалтике. Мы рассказываем о&nbsp;природных объектах и&nbsp;архитектуре,
+                    кафе и&nbsp;ресторанах,
                     музеях и&nbsp;гостиницах.
                 </div>
             </div>
@@ -67,8 +75,66 @@
             <div class="content-block">
 
             </div>
+
+            <div class="feedback">
+                <div class="feedback__text">
+                    <p>
+                        Мы сотрудничаем с ресторанами,
+                        кафе, музеями и другими заведениями. Получаем от партнёров скидки и делимся ими с вами. Оставьте
+                        свою почту, чтобы получать специальные предложения
+                    </p>
+
+                    <p>
+                        Если вы хотите стать нашим партнером,
+                        напишите нам: <a href="mailto:info@visitbaltics.net" target="_blank">info@visitbaltics.net</a>
+                    </p>
+                </div>
+                <div class="feedback__form">
+                    <form>
+                        <fieldset>
+                            <div class="feedback__input">
+                                <input type="text" placeholder="Email">
+                                <button type="submit">Go</button>
+                            </div>
+                        </fieldset>
+                        <fieldset >
+                            <label for="agree" class="checkbox">
+                                <input type="checkbox" id="agree" name="agree">
+                                <span class="checkbox__mark-container">
+                                    <span class="checkbox__mark"></span>
+                                </span>
+                                <p>Я хочу получать информацию о скидках,
+                                    специальных предложениях и другие полезности</p>
+                            </label>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
         </div>
     </main>
+
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__text">
+                Subscribe on
+                <a href="https://www.facebook.com/visitbaltics.net/" target="_blank" rel="noopener"
+                   class="footer__img-link">
+                    <span class="footer__img footer__img--facebook"></span>
+                </a> and
+                <a href="https://www.instagram.com/visit.baltics/" target="_blank" rel="noopener"
+                   class="footer__img-link">
+                    <span class="footer__img footer__img--insta"></span>
+                </a> to get new Baltic travel ideas every day
+            </div>
+            <div class="footer__text">
+                Made in <a href="https://bureau.ru/school" target="_blank" class="footer__link">Bureau Gorbunov<br>Design
+                School</a> in 2018
+            </div>
+            <div class="copyright visually-hidden">© 2018</div>
+        </footer>
+    </div>
 </div>
 <script src="./lib/wow.js"></script>
 <script src="./js/script.js"></script>
