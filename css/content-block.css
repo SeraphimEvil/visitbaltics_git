@@ -77,3 +77,91 @@
 .content-block__link:hover::before {
   opacity: 1;
 }
+
+.content-block__inner {
+  position: relative;
+}
+
+.content-block__price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.content-block__image {
+  
+}
+
+.content-block__image-title {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.content-block__sticker {
+  font-size: 22px;
+  line-height: 1.2;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 40px 40px;
+  background-size: cover;
+}
+
+.content-block__sticker--1 {
+  background-image: url("../img/stickers/sticker1.png");
+  width: 254px;
+  height: 220px;
+}
+
+/*MODIFICATORS*/
+
+/*NEWS*/
+
+.content-block--news .content-block__inner {
+  min-height: 400px;
+}
+
+.content-block--news .content-block__image {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+.content-block--news .content-block__sticker {
+  left: 10%;
+}
+
+/*TALKS*/
+
+.content-block--talks .content-block__inner {
+  min-height: 500px;
+}
+
+.content-block--talks .content-block__text {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.content-block--talks .content-block__image {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+/*FIELDS*/
+
+.content-block--fields .content-block__inner {
+  min-height: 350px;
+}
+
+.content-block--fields .content-block__image {
+  top: 0;
+  right: 5%;
+  position: absolute;
+}

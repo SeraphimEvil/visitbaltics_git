@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
 
-  background-image: url("../img/main-bg.png");
+  background-image: url("../img/main-bg.jpeg");
 }
 
 .main-screen {
@@ -13,7 +13,7 @@
 .main-screen__logo {
   max-width: 500px;
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 11%;
 }
 
