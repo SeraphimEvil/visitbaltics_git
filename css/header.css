@@ -1,6 +1,11 @@
 .header a {
   color: #ffffff;
   text-decoration: none;
+  transition: 300ms ease-out;
+}
+
+.header a:hover {
+  color: #212121;
 }
 
 .header__nav {

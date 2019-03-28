@@ -89,10 +89,16 @@
 }
 
 .content-block__image {
-  
+  max-width: calc(100% - 600px);
 }
 
 .content-block__image-title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.content-block__image-text {
   font-size: 18px;
   line-height: 1.2;
   color: #000;
@@ -131,6 +137,7 @@
   position: absolute;
   top: 0;
   right: 10%;
+  max-width: 430px;
 }
 
 .content-block--news .content-block__sticker {
@@ -164,4 +171,62 @@
   top: 0;
   right: 5%;
   position: absolute;
+}
+
+/*WAYS*/
+
+.content-block--ways .content-block__inner {
+  min-height: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-block--ways .content-block__text--second {
+  margin-top: auto;
+}
+
+.content-block--ways .content-block__image {
+  position: absolute;
+
+}
+
+.content-block--ways .content-block__image-title {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.content-block--ways .content-block__image--1 {
+  right: 0;
+}
+
+.content-block--ways .content-block__image--1 .content-block__image-title {
+  left: -50%;
+  bottom: 20%;
+  color: #848dd8;
+}
+
+.content-block--ways .content-block__image--2 {
+  top: 60%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.content-block--ways .content-block__image--2 .content-block__image-title {
+  top: -10%;
+  color: #734d98;
+}
+
+.content-block--ways .content-block__image--2 img {
+  transform: rotate(-25deg);
+}
+
+.content-block--ways .content-block__image--3 {
+  right: 5%;
+  bottom: 0;
+}
+
+.content-block--ways .content-block__image--3 .content-block__image-title {
+  left: -50px;
+  top: 0;
+  color: #c50101;
 }
