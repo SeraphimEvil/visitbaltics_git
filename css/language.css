@@ -6,13 +6,13 @@
   cursor: pointer;
 
   position: relative;
-  width: 60px;
+  /*width: 60px;*/
 }
 
 .language__selected {
   color: #e5aec3;
   background-color: #f7f5f6;
-  padding: 5px 22px 6px 9px;
+  padding: 5px 9px 6px 9px;
   width: 100%;
   transition: 300ms ease-out;
 }
@@ -41,7 +41,7 @@
 
 .language__item {
   background-color: #f7f5f6;
-  padding: 5px 22px 6px 9px;
+  padding: 5px 9px 6px 9px;
   color: #e5aec3;
   width: 100%;
 }

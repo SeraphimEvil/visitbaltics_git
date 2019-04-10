@@ -89,7 +89,7 @@
 }
 
 .content-block__image {
-  max-width: calc(100% - 600px);
+  /*max-width: calc(100% - 600px);*/
 }
 
 .content-block__image-title {
@@ -147,7 +147,7 @@
 /*TALKS*/
 
 .content-block--talks .content-block__inner {
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .content-block--talks .content-block__text {
@@ -158,13 +158,14 @@
 .content-block--talks .content-block__image {
   position: absolute;
   top: 0;
-  left: 5%;
+  left: 3%;
 }
 
 /*FIELDS*/
 
 .content-block--fields .content-block__inner {
-  min-height: 350px;
+  /*min-height: 350px;*/
+  min-height: 300px;
 }
 
 .content-block--fields .content-block__image {
@@ -176,7 +177,8 @@
 /*WAYS*/
 
 .content-block--ways .content-block__inner {
-  min-height: 1100px;
+  /*min-height: 1100px;*/
+  min-height: 1000px;
   display: flex;
   flex-direction: column;
 }
@@ -200,7 +202,9 @@
 }
 
 .content-block--ways .content-block__image--1 .content-block__image-title {
-  left: -50%;
+  /*left: -50%;*/
+  left: -100%;
+  transform: translateX(100%);
   bottom: 20%;
   color: #848dd8;
 }
