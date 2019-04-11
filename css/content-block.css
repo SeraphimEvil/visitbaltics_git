@@ -178,7 +178,7 @@
 
 .content-block--ways .content-block__inner {
   /*min-height: 1100px;*/
-  min-height: 1000px;
+  min-height: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -216,12 +216,13 @@
 }
 
 .content-block--ways .content-block__image--2 .content-block__image-title {
-  top: -10%;
+  /*top: -10%;*/
   color: #734d98;
+  left: -100%;
 }
 
 .content-block--ways .content-block__image--2 img {
-  transform: rotate(-25deg);
+  transform: rotate(-28deg);
 }
 
 .content-block--ways .content-block__image--3 {
@@ -230,7 +231,14 @@
 }
 
 .content-block--ways .content-block__image--3 .content-block__image-title {
-  left: -50px;
-  top: 0;
+  /*left: -50px;*/
+  left: -60px;
+  /*top: 0;*/
+  top: -10%;
   color: #c50101;
+}
+
+.content-block--ways .content-block__image--4 {
+  left: 30%;
+  top: 40%;
 }
