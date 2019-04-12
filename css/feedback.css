@@ -6,12 +6,34 @@
   margin-bottom: 200px;
 }
 
+@media (max-width: 767px) {
+  .feedback {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
 .feedback > div {
   width: 50%;
 }
 
+@media (max-width: 767px) {
+  .feedback > div {
+    width: 100%;
+  }
+}
+
 .feedback__text {
   padding-right: 70px;
+}
+
+@media (max-width: 767px) {
+  .feedback__text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .feedback__text p {

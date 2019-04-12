@@ -17,6 +17,13 @@
   left: 11%;
 }
 
+@media (max-width: 767px) {
+  .main-screen__logo {
+    max-width: 60vw;
+    top: 15%;
+  }
+}
+
 .main-screen__title {
   width: 100px;
   font-size: 16px;
@@ -30,3 +37,11 @@
   /*TODO: показать кате*/
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 767px) {
+  .main-screen__title {
+    top: 35%;
+    left: 13%;
+  }
+}
+
