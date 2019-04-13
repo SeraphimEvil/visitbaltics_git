@@ -1,16 +1,16 @@
-.header a {
+.header li a {
   color: #ffffff;
   text-decoration: none;
   transition: 300ms ease-out;
 }
 
 @media (max-width: 767px) {
-  .header a {
+  .header li a {
     color: #212121;
   }
 }
 
-.header a:hover {
+.header li a:hover {
   color: #212121;
 }
 

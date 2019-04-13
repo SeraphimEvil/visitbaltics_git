@@ -44,6 +44,8 @@
   padding: 5px 9px 6px 9px;
   color: #e5aec3;
   width: 100%;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .language__item:hover {
