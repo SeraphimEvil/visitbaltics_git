@@ -8,6 +8,7 @@
 .main-screen {
   min-height: 100vh;
   position: relative;
+  background-color: #e5aec3;
 }
 
 .main-screen__logo {
